@@ -1,3 +1,174 @@
 page-home {
+    .menu{
+        width: 50px;
+        
+    }
+    ion-icon{
+       font-size: 30px; 
+       
+    }
+
+
+.flex-container > div{
+    background-color: transparent;
+    margin: 3px;
+    padding: 2px;
+    font-size: 20px;
+    flex-direction: row;
+}
+.flex-container{
+    display: flex;
+}
+.fefe01{
+    width: 167px;
+    
+}
+.fefe0201{
+    width: 30px;
+    margin-left: 40%;
+    margin-top: 20%;
+    flex: 2;
+    justify-content: space-around;
+   
+}
+.fefe0202{
+    width: 100px;
+}
+.fefe0301{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-image: url(https://static.stereogum.com/uploads/2016/07/Drake-2016-Views-promo-640x427.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.flex-container2 {
+    
+    height: 30vh;
+    background-image: url(../../assets/khanye.png);
+    background-repeat: no-repeat;
+    flex-direction: column;
+
+}
+.flex-container2 > div{
+    background-color: transparent;
+    align-items: center;
+    padding: 2px;
+    margin: auto;
+    font-size: 20px;
+    flex-direction: row;
+    color: beige;
+    font-family: 'Bitter' , serif;
+    font-style: italic;
+}
+.flex-container3 > div{
+    background-color: transparent;
+    align-items: center;
+    padding: 2px;
+    margin: 2px;
+    font-size: 4mm;
+    flex-direction: row;
+    color: black;
+    font-family: 'Anton' Arial;
+    font-weight: bold;
+    font-style: oblique;
+    margin-left: 35%;
+}
+.flex-container3{
+    flex-direction: column;
+    border: 1px solid transparent;
+    height: 30vh;
+    box-shadow: 0px 0px 5px black;
+    margin-top: -20%;
+    width: 90%;
+    margin-left: 5%;
+    background-color: wheat;
+    border-radius: 15px;
+    
+}
+.fefe0303{
+    margin-left: 35%;
+    width: 200px;
+}
+.fefe0302{
+    margin-right: -15%;
+    margin-top: -50%;
+    width: 200px;
+
+}
+.fefe0304{
+    height: 10vh;
+}
+.flex-container4{
+    display: flex;
+    
+    border: transparent;
+    height: 30vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.flex-container4 > div{
+    background-image: cover;
+    margin: 3px;
+    padding: 2px;
+}
+.d4c1{
+    width: 120px;
+    height: 70px;
+    margin: 10px;
+    
+}
+.d4c2{
+    width: 120px;
+    height: 70px;
+    margin: 10px;
+}
+
+.d4c3{
+    width: 120px;
+    height: 70px;
+    margin: 10px;
+}
+.d4c4{
+    width: 120px;
+    height: 70px;  
+    margin: 10px;
+}
+.d4c5{
+    width: 120px;
+    height: 70px;  
+    margin: 10px;
+}
+.txt1{
+    width: 160px;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 15px;
+    -moz-border-raduis: 15px;
+    font-size: 4mm;
+    flex: 1;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    background-image: cover;
+    // margin: 10px;
+    // padding: 10px;
+    margin-top: 10%;
+    justify-content: space-around;
+    
+}
+.one1{
+    display: flex;
+    justify-content: space-around;
+}
+.one2{
+    display: flex;
+    justify-content: space-around;
+}
+.one img{
+    border-radius: 50%;
+}
 
 }
